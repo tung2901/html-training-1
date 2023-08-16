@@ -1,0 +1,7 @@
+#p1 {
+    color: var(--primary, #0A2944);
+    font-family: Playfair Display;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+}
