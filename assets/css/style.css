@@ -5,3 +5,10 @@
     font-weight: 700;
     line-height: 80px;
 }
+main{
+    margin: 0 320px;
+}
+.intro{
+    display: flex;
+   
+}
