@@ -1,22 +1,47 @@
-#header {
-    width: 1920px;
-    height: 110px;
-    opacity: 0.8;
-    background: var(--neutral-1, #151C34);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+a{
+    text-decoration: none;
 }
 
+
+header {
+    opacity: 0.8;
+    background: var(--neutral-1, #151C34);
+    display: flex;
+    padding: 30px 320px;
+    justify-content: space-between;
+    align-items: center;
+}
+header>img{
+    height: 52px;
+}
+header>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
 #nav {
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 41 641;
 }
 
 .logo {
     padding-left: 230px;
     padding-right: 29px;
 }
-
 #nav li a {
     color: var(--neutral-3, #8C8E96);
     font-family: Lato;
@@ -29,7 +54,8 @@
 
 #img {
     position: relative;
-    width: 100%;
+
+    
 }
 
 #title {
